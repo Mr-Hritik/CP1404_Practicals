@@ -1,4 +1,4 @@
-"""https://github.com/Mr-Hritik/CP1404_Practicals/blob/master/prac_05/word_occurences.py"""
+"""https://github.com/Mr-Hritik/CP1404_Practicals/blob/master/prac_05/word_occurrence.py"""
 
 def main():
     count_words = {}
