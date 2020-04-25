@@ -1,6 +1,6 @@
 def name_from_email(email):
-    prefix = email.split('@')[0]
-    email_parts = prefix.split('.')
+    first_part = email.split('@')[0]
+    email_parts = first_part.split('.')
     name = " ".join(email_parts).title()
     return name
 
