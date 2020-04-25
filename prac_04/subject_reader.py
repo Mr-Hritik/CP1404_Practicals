@@ -1,6 +1,7 @@
 def main():
     data = get_data()
-    display_subject_details(data)
+    for subject_data in data:
+        print("{} is taught by {:12} and has {:3} students".format(*subject_data))
 
 
 def get_data():
@@ -19,8 +20,5 @@ def get_data():
     input_file.close()
     return data
 
-def display_subject_details(data):
-    for subject_data in data:
-        print("{} is taught by {:12} and has {:3} students".format(*subject_data))
 
 main()
